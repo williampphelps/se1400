@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    background-color: #1c1917;
+    color: #e7e5e4
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
+}
+
+header {
+    grid-column: 2 / span 6;
+    background-color: rgba(255, 149, 0, 0.5);
+    height: 70px;
+}
+
+main {
+    grid-column: 2 / span 6;
+}
+
+footer {
+    grid-column: 2 / span 6;
+}
+
+#hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 124px 0;
+    background-color: rgba(0, 122, 255, 0.5);
+    height: 556px;
+}
+
+#portfolio {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    padding-bottom: 196px;
+    background-color: rgba(52, 199, 89, 0.5);
+    height: 904px;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(255, 59, 48, 0.5);
+    height: 70px;
+}
