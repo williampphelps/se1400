@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Utah Tech University :: Shop</title>
+        <meta charset="utf-8" />
+        <meta name="robots" content="noindex, nofollow" />
+        <link rel="stylesheet" href="style.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+    <body
+        onload="alert('Today only - 10% off on a weekend - coupon code TrailBlazers');"
+    >
+        <script>
+            window.SnipcartSettings = {
+                publicApiKey:
+                    "MGE2MjBjOTItMzdkOS00MzE4LWExZmQtMDU0NjJjZjc5YTM1NjM4ODAyODgyNjQ1NDk2Nzc5",
+                loadStrategy: "on-user-interaction",
+            };
+
+            (function () {
+                var c, d;
+                (d = (c = window.SnipcartSettings).version) != null ||
+                    (c.version = "3.0");
+                var s, S;
+                (S = (s = window.SnipcartSettings).timeoutDuration) != null ||
+                    (s.timeoutDuration = 2750);
+                var l, p;
+                (p = (l = window.SnipcartSettings).domain) != null ||
+                    (l.domain = "cdn.snipcart.com");
+                var w, u;
+                (u = (w = window.SnipcartSettings).protocol) != null ||
+                    (w.protocol = "https");
+                var m, g;
+                (g = (m = window.SnipcartSettings).loadCSS) != null ||
+                    (m.loadCSS = !0);
+                var y =
+                        window.SnipcartSettings.version.includes("v3.0.0-ci") ||
+                        (window.SnipcartSettings.version != "3.0" &&
+                            window.SnipcartSettings.version.localeCompare(
+                                "3.4.0",
+                                void 0,
+                                { numeric: !0, sensitivity: "base" },
+                            ) === -1),
+                    f = [
+                        "focus",
+                        "mouseover",
+                        "touchmove",
+                        "scroll",
+                        "keydown",
+                    ];
+                window.LoadSnipcart = o;
+                document.readyState === "loading"
+                    ? document.addEventListener("DOMContentLoaded", r)
+                    : r();
+                function r() {
+                    window.SnipcartSettings.loadStrategy
+                        ? window.SnipcartSettings.loadStrategy ===
+                              "on-user-interaction" &&
+                          (f.forEach(function (t) {
+                              return document.addEventListener(t, o);
+                          }),
+                          setTimeout(
+                              o,
+                              window.SnipcartSettings.timeoutDuration,
+                          ))
+                        : o();
+                }
+                var a = !1;
+                function o() {
+                    if (a) return;
+                    a = !0;
+                    let t = document.getElementsByTagName("head")[0],
+                        n = document.querySelector("#snipcart"),
+                        i = document.querySelector(
+                            'src[src^="'
+                                .concat(window.SnipcartSettings.protocol, "://")
+                                .concat(
+                                    window.SnipcartSettings.domain,
+                                    '"][src$="snipcart.js"]',
+                                ),
+                        ),
+                        e = document.querySelector(
+                            'link[href^="'
+                                .concat(window.SnipcartSettings.protocol, "://")
+                                .concat(
+                                    window.SnipcartSettings.domain,
+                                    '"][href$="snipcart.css"]',
+                                ),
+                        );
+                    n ||
+                        ((n = document.createElement("div")),
+                        (n.id = "snipcart"),
+                        n.setAttribute("hidden", "true"),
+                        document.body.appendChild(n)),
+                        h(n),
+                        i ||
+                            ((i = document.createElement("script")),
+                            (i.src = ""
+                                .concat(window.SnipcartSettings.protocol, "://")
+                                .concat(
+                                    window.SnipcartSettings.domain,
+                                    "/themes/v",
+                                )
+                                .concat(
+                                    window.SnipcartSettings.version,
+                                    "/default/snipcart.js",
+                                )),
+                            (i.async = !0),
+                            t.appendChild(i)),
+                        !e &&
+                            window.SnipcartSettings.loadCSS &&
+                            ((e = document.createElement("link")),
+                            (e.rel = "stylesheet"),
+                            (e.type = "text/css"),
+                            (e.href = ""
+                                .concat(window.SnipcartSettings.protocol, "://")
+                                .concat(
+                                    window.SnipcartSettings.domain,
+                                    "/themes/v",
+                                )
+                                .concat(
+                                    window.SnipcartSettings.version,
+                                    "/default/snipcart.css",
+                                )),
+                            t.prepend(e)),
+                        f.forEach(function (v) {
+                            return document.removeEventListener(v, o);
+                        });
+                }
+                function h(t) {
+                    !y ||
+                        ((t.dataset.apiKey =
+                            window.SnipcartSettings.publicApiKey),
+                        window.SnipcartSettings.addProductBehavior &&
+                            (t.dataset.configAddProductBehavior =
+                                window.SnipcartSettings.addProductBehavior),
+                        window.SnipcartSettings.modalStyle &&
+                            (t.dataset.configModalStyle =
+                                window.SnipcartSettings.modalStyle),
+                        window.SnipcartSettings.currency &&
+                            (t.dataset.currency =
+                                window.SnipcartSettings.currency),
+                        window.SnipcartSettings.templatesUrl &&
+                            (t.dataset.templatesUrl =
+                                window.SnipcartSettings.templatesUrl));
+                }
+            })();
+        </script>
+        <div id="wrapper">
+            <div id="bluebar"></div>
+            <div id="greybar"></div>
+            <header>
+                <a href="index.html"><h1>Utah Tech University</h1></a>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="students.html">Students</a></li>
+                    <li><a href="faculty.html">Faculty</a></li>
+                    <li><a href="alumni.html">Alumni</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                </ul>
+            </nav>
+            <div id="shophero"></div>
+            <main>
+                <h2>Utah Tech Bookstore</h2>
+                <div id="shoppingcart">
+                    <div>
+                        <img
+                            src="images/hoodie1.jpg"
+                            class=""
+                            alt="Heather grey hoodie with Utah Tech logo"
+                        />
+                        <h3>Utah Tech Hoodie</h3>
+                        <p>Heather grey hoodie with Utah Tech logo</p>
+                        <p>$79.99</p>
+                        <button
+                            class="snipcart-add-item"
+                            data-item-id="grey-hoodie-1"
+                            data-item-price="79.99"
+                            data-item-description="Heather grey hoodie with Utah Tech logo"
+                            data-item-image="images/hoodie1.jpg"
+                            data-item-name="Utah Tech Hoodie"
+                        >
+                            Add to cart
+                        </button>
+                    </div>
+                    <div>
+                        <img
+                            src="images/hoodie2.jpg"
+                            class=""
+                            alt="Dark Grey hoodie with Utah Tech logo"
+                        />
+                        <h3>Utah Tech Trailblazers Hoodie</h3>
+                        <p>Dark grey hoodie with Utah Tech logo</p>
+                        <p>$89.99</p>
+                        <button
+                            class="snipcart-add-item"
+                            data-item-id="grey-hoodie-2"
+                            data-item-price="89.99"
+                            data-item-description="Dark grey hoodie with Utah Tech logo"
+                            data-item-image="images/hoodie2.jpg"
+                            data-item-name="Utah Tech Trailblazers Hoodie"
+                        >
+                            Add to cart
+                        </button>
+                    </div>
+                    <div>
+                        <img
+                            src="images/hoodie3.jpg"
+                            class=""
+                            alt="Heather grey hoodie with Utah Tech logo"
+                        />
+                        <h3>Utah Tech Hoodie</h3>
+                        <p>Grey patterned hoodie with plain sleeves</p>
+                        <p>$79.99</p>
+                        <button
+                            class="snipcart-add-item"
+                            data-item-id="grey-hoodie-3"
+                            data-item-price="79.99"
+                            data-item-description="Grey patterned hoodie with plain sleeves"
+                            data-item-image="images/hoodie3.jpg"
+                            data-item-name="Utah Tech Hoodie"
+                        >
+                            Add to cart
+                        </button>
+                    </div>
+                    <div>
+                        <img
+                            src="images/shirt1.jpg"
+                            class=""
+                            alt="Red Utah Tech shirt"
+                        />
+                        <h3>Utah Tech Shirt</h3>
+                        <p>Red shirt with Utah Tech logo</p>
+                        <p>$39.99</p>
+                        <button
+                            class="snipcart-add-item"
+                            data-item-id="grey-shirt-1"
+                            data-item-price="39.99"
+                            data-item-description="Red Utah Tech shirt"
+                            data-item-image="images/shirt1.jpg"
+                            data-item-name="Utah Tech Hoodie"
+                        >
+                            Add to cart
+                        </button>
+                    </div>
+                    <div>
+                        <img
+                            src="images/shirt2.jpg"
+                            class=""
+                            alt="Blue Utah Tech shirt"
+                        />
+                        <h3>Utah Tech Shirt</h3>
+                        <p>Blue shirt with Utah Tech logo</p>
+                        <p>$39.99</p>
+                        <button
+                            class="snipcart-add-item"
+                            data-item-id="grey-shirt-2"
+                            data-item-price="39.99"
+                            data-item-description="Blue Utah Tech shirt"
+                            data-item-image="images/shirt2.jpg"
+                            data-item-name="Utah Tech Hoodie"
+                        >
+                            Add to cart
+                        </button>
+                    </div>
+                    <div>
+                        <img
+                            src="images/shirt3.jpg"
+                            class=""
+                            alt="Green Utah Tech shirt"
+                        />
+                        <h3>Utah Tech Shirt</h3>
+                        <p>Green shirt with Utah Tech logo</p>
+                        <p>$39.99</p>
+                        <button
+                            class="snipcart-add-item"
+                            data-item-id="green-shirt-3"
+                            data-item-price="39.99"
+                            data-item-description="Green Utah Tech shirt"
+                            data-item-image="images/shirt3.jpg"
+                            data-item-name="Utah Tech Hoodie"
+                        >
+                            Add to cart
+                        </button>
+                    </div>
+                    <div>
+                        <img
+                            src="images/shirt4.jpg"
+                            class=""
+                            alt="Red Utah Tech shirt"
+                        />
+                        <h3>Utah Tech Shirt</h3>
+                        <p>Red shirt with Utah Tech logo</p>
+                        <p>$39.99</p>
+                        <button
+                            class="snipcart-add-item"
+                            data-item-id="red-shirt-4"
+                            data-item-price="39.99"
+                            data-item-description="Red Utah Tech shirt"
+                            data-item-image="images/shirt4.jpg"
+                            data-item-name="Utah Tech Hoodie"
+                        >
+                            Add to cart
+                        </button>
+                    </div>
+                    <div>
+                        <img
+                            src="images/shirt5.jpg"
+                            class=""
+                            alt="Blue Utah Tech shirt"
+                        />
+                        <h3>Utah Tech Shirt</h3>
+                        <p>Blue shirt with Utah Tech logo</p>
+                        <p>$39.99</p>
+                        <button
+                            class="snipcart-add-item"
+                            data-item-id="blue-shirt-5"
+                            data-item-price="39.99"
+                            data-item-description="Blue Utah Tech shirt"
+                            data-item-image="images/shirt5.jpg"
+                            data-item-name="Utah Tech Hoodie"
+                        >
+                            Add to cart
+                        </button>
+                    </div>
+                    <div>
+                        <img
+                            src="images/shirt6.jpg"
+                            class=""
+                            alt="Green Utah Tech shirt"
+                        />
+                        <h3>Utah Tech Shirt</h3>
+                        <p>Green shirt with Utah Tech logo</p>
+                        <p>$39.99</p>
+                        <button
+                            class="snipcart-add-item"
+                            data-item-id="green-shirt-6"
+                            data-item-price="39.99"
+                            data-item-description="Green Utah Tech shirt"
+                            data-item-image="images/shirt6.jpg"
+                            data-item-name="Utah Tech Hoodie"
+                        >
+                            Add to cart
+                        </button>
+                    </div>
+                </div>
+            </main>
+            <footer>
+                Copyright &copy; 2025 Utah Tech University<br />
+                <a href="mailto:william.phelps@utahtech.edu"
+                    >william.phelps@utahtech.edu</a
+                >
+            </footer>
+        </div>
+    </body>
+</html>
