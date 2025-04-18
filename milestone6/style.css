@@ -124,7 +124,33 @@ a.active {
     flex-direction: row;
     gap: 24px;
 }
-
+#posts {
+    padding-bottom: 124px;
+}
+#posts article {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    border-radius: 16px;
+    padding-bottom: 24px;
+}
+#posts article h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e7e5e4;
+}
+#posts article h3 {
+    font-size: 14px;
+    font-weight: medium;
+    color: #e7e5e4;
+}
+#posts article img {
+    width: 100%;
+    border-radius: 12px;
+}
+#posts article a {
+    text-decoration: underline;
+}
 .button-primary {
     background-color: #00a63e;
     padding: 16px 22px;
